@@ -1,0 +1,13 @@
+[project]
+name = "MP42srt"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "typer",
+    "ffmpeg-python",
+    "google-cloud-speech",
+    "google-cloud-storage",
+    "halo"
+]
