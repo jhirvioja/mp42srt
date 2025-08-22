@@ -1,6 +1,6 @@
-# MP42srt
+# mp42srt
 
-Takes your mp4 file and creates .srt subtitles with Google Cloud's Speech-to-Text.
+A command-line tool that transcribes the audio from an MP4 video file and generates a time-stamped SRT subtitle file.
 
 ## Requirements
 - ffmpeg installed and in $PATH
