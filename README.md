@@ -3,14 +3,14 @@
 A command-line tool that transcribes the audio from an MP4 video file and generates a time-stamped SRT subtitle file.
 
 ## Requirements
-- ffmpeg installed and in $PATH
-- uv (https://docs.astral.sh/uv/) - like pip but better
+- [ffmpeg](https://ffmpeg.org/) installed and in $PATH
+- [uv](https://docs.astral.sh/uv/)
 - Google Cloud project with a Google Cloud Storage bucket, and a service account that has correct permissions. Example roles:
   - `Cloud Speech Administrator` - gives access to required speech recognition APIs
   - `Storage Object User` - gives access to Google Cloud Storage in the project
 
 ## Quickstart
-1. Add service account credentials to root folder of code, rename file to `credentials.json`.
+1. Add service account credentials key to root folder of code, rename file to `credentials.json`
 2. `uv venv`
 3. `source .venv/bin/activate`
 4. `uv pip install -e .`
