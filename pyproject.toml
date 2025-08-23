@@ -11,3 +11,12 @@ dependencies = [
     "google-cloud-storage",
     "halo"
 ]
+
+[tool.setuptools]
+py-modules = [
+    "main",
+    "audio_processor",
+    "transcriber",
+    "srt_generator",
+    "utils",
+]
