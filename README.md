@@ -11,15 +11,12 @@ A command-line tool that transcribes the audio from an MP4 video file and genera
 
 ## Quickstart
 1. Add service account credentials key to root folder of code, rename file to `credentials.json`
-2. `uv venv`
-3. `source .venv/bin/activate`
-4. `uv pip install -e .`
-5. `python main.py --help`
+2. `uv run main.py --help`
 
 ## Examples
 
 ### Default - English
-`python main.py --gcs-bucket-name 'mp42srt' speech.mp4`
+`uv run main.py --gcs-bucket-name 'mp42srt' speech.mp4`
 
 ### Specific language
-`python main.py --gcs-bucket-name 'mp42srt' --lang 'fi-FI' puhe.mp4`
+`uv run main.py --gcs-bucket-name 'mp42srt' --lang 'fi-FI' puhe.mp4`
